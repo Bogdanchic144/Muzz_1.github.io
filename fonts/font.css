@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'Montserrat';
+    src: url(../fonts/Montserrat.ttf) format(truetype),
+    url(../fonts/Montserrat.woff) format(woff),
+    url(../fonts/Montserrat.woff2) format(woff2)
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url(../fonts/PTSans.ttf) format(truetype),
+    url(../fonts/PTSans.woff) format(woff),
+    url(../fonts/PTSans.woff2) format(woff2)
+}

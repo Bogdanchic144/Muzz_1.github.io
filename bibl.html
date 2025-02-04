@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpor" content="width=device-width, initial-scale=1.0" />
+    <title>Библиотека</title>
+    <link rel="icon" href="./images/Page-1.svg" />
+    <link rel="stylesheet" href="./fonts/font.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
+    <header class="content content_header-wid_bibl">
+      <div class="header_wid-titleicon_bibl">
+        <img
+          class="header_icon_bibl"
+          src="./images/Page-1.svg"
+          alt="нарисованная картинка наушников"
+        />
+        <span class="header_title_bibl">Muzz</span>
+      </div>
+      <nav class="header_wid-nav_bibl">
+        <ul class="header_wid-nav-items_bibl">
+          <li
+            class="header_wid-nav-items-list header_wid-nav-items-list-active_bibl"
+          >
+            <a class="main_butt_bibl" href="main.html" target="_blank">Главная</a>
+          </li>
+          <li class="header_wid-nav-items-list"><a class="secnd_butt_bibl" href="about_us.html"target="_blank">О нас</a></li>
+          <li  class="header_wid-nav-items-list"><a class="third_butt_bibl" href="bibl.html"target="_blank">Библиотека</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content_bibl">
+      <div class ="playlist-panel ">
+        <div class="playlist-header" onclick="togglePlaylist()">
+            <h3 class="playlist-title">Название плейлиста</h3>
+            <span class="toggle-arrow">▼</span>
+        </div>
+        <div class="playlist-songs hidden">
+            <p>song_1</p>
+            <p>song_2</p>
+            <p>song_3</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+      <section class="content_main_glav-section_bibl">
+        <div class="content_main-text_bibl">
+          <div class="center-both">
+          </div>
+        </div> 
+      </section>
+    </main>
+  </body>
+</html>
