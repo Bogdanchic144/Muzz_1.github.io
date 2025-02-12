@@ -1,17 +1,20 @@
 .content {
-  background-color: #ffedde;
+  background-color: #ffffff;
   width: 100%;
   height: 100%;
 }
-
 .content_ab {
-  background-color: #ffedde;
+  background-color: #ffffff;
   width: 100%;
   height: 100%;
 }
-
+.content_bibl {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
 .content_header-wid {
-  background-color: #c9c6c6;
+  background-color: #949494;
   width: 100%;
   height: 100px;
   display: flex;
@@ -21,6 +24,7 @@
 .header_icon {
   width: 65px;
   height: 62px;
+  user-select: none;
 }
 
 .header_wid-titleicon {
@@ -93,23 +97,29 @@
   font-size: 40px;
   line-height: 52px;
   font-family: "PTSans";
-  color: #3f6b8f;
+  color: #008BEA;
   cursor: default;
+  user-select: none;
 }
+.text_main {
+margin-top: 40px;
 
+}
 .content_main-text {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   line-height: 50px;
   color: #464646;
-  margin-top: 40px;
-  margin-left: 26px;
+  margin-top: 50px;
+  margin-left: 65px;
   cursor: default;
   text-align: center;
   width: 1000px;
+  user-select: none;
 }
+
 
 textarea {
   font-family: "Montserrat";
@@ -142,18 +152,23 @@ body {
   font-family: "Montserrat";
   padding: 25px 80px;
   border-radius: 20px;
-  background-color: #a3a3a3;
+  background-color: #008BEA;
   cursor: pointer;
   color: white;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 2px;
-  box-shadow: 0px 5px 5px #000;
+  box-shadow: 0px 5px 5px #a6a6a6;
   margin-top: 60px;
   width: 500px;
-  margin-left: 250px;
+  margin-left: 249px;
+  transition: background-color 0.6s, transform 0.5s;
 }
-
+.generatebutn:hover {
+  background-color: #0155e7;
+  transform: scale(103%);
+  color: white;
+}
 
 .pole {
   margin-top: 50px;
@@ -166,36 +181,69 @@ body {
     font-weight: 700;
     margin-left: 250px;
     margin-top: 100px;
+    background-color: #dbdbdb;
+    transition: background-color 0.5s;
+}
+.pole:hover{
+background-color: #FFFFFF;
+
 }
 
 .main_butt {
   text-decoration: none;
-  color: #303030;
+  color: #949494;
+  transition: color 0.6s;
+}
+.main_butt:hover {
+color: #000000;
+
 }
 .secnd_butt {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
 }
-.third_butt {
+.secnd_butt:hover {
+  color: #000000;
+
+}
+.third_butt_ab {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
 }
+.third_butt_ab:hover {
+  color: #000000;
+
+}
+
+
 .main_butt_bibl {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
+}
+.main_butt_bibl:hover{
+  color: #000000;
+
 }
 .secnd_butt_bibl {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
+}
+.secnd_butt_bibl:hover {
+  color: #000000;
+
 }
 .third_butt_bibl {
   text-decoration: none;
-  color: #303030;
+  color: #949494;
+  transition: color 0.6s;
 }
-.content_bibl {
-  background-color: #ffedde;
-  width: 100%;
-  height: 100%;
+.third_butt_bibl:hover{
+  color: #000000;
+
 }
 .header_wid-nav-items_bibl {
   display: flex;
@@ -218,11 +266,11 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #3f6b8f;
+  color: #000000;
   user-select: none;
 }
 .content_header-wid_bibl {
-  background-color: #ffedde;
+  background-color: #FFFFFF;
   width: 100%;
   height: 100px;
   display: flex;
@@ -238,7 +286,7 @@ body {
   margin-top: 2px;
 }
 .content_header-wid_bibl {
-  background-color: #c9c6c6;
+  background-color: #FFFFFF;
   width: 100%;
   height: 100px;
   display: flex;
@@ -263,14 +311,30 @@ body {
 .main_butt_ab {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
+}
+.main_butt_ab:hover {
+color: black;
+
 }
 .secnd_butt_ab {
   text-decoration: none;
-  color: #303030;
+  color: #949494;
+  transition: color 0.6s;
 }
+.secnd_butt_ab:hover {
+  color: black;
+  
+  }
 .third_butt_ab {
   text-decoration: none;
   color: #949494;
+  transition: color 0.6s;
+}
+
+.third_butt_ab:hover {
+  color: #000000;
+
 }
 
 .header_wid-nav-items_ab {
@@ -293,11 +357,11 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #3f6b8f;
+  color: #000000;
   user-select: none;
 }
 .content_header-wid_ab {
-  background-color: #c9c6c6;
+  background-color: #FFFFFF;
   width: 100%;
   height: 100px;
   display: flex;
@@ -312,13 +376,7 @@ body {
   margin-left: 20px;
   margin-top: 2px;
 }
-.content_header-wid_ab {
-  background-color: #c9c6c6;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .header_icon_ab {
   width: 65px;
@@ -344,19 +402,26 @@ body {
 
 .content_main-image_ab-b {
   height: 100%;
+  border-top-left-radius: 30px;
 }
 .content_main-text-title_ab {
   font-family: "PTSans";
-  color: #3f6b8f;
+  color: #008BEA;
   font-weight: 700px;
   font-size: 40px;
   line-height: 100px;
   user-select: none;
+  text-align: center;
+  margin-left: 150px;
+}
+.text_ab_us{
+  text-align: center;
+  margin-left: 150px;
 }
 .content_main-text_ab {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   line-height: 41px;
   color: #464646;
@@ -455,20 +520,23 @@ body {
     font-family: "Montserrat";
     padding: 25px 80px;
     border-radius: 20px;
-    background-color: #a3a3a3;
+    background-color: #008BEA;
     cursor: pointer;
     color: white;
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 2px;
-    box-shadow: 0px 5px 5px #000;
-    margin-left: 200px;
-    width: 600px;
-    height: 80px;
+    box-shadow: 0px 5px 5px #a6a6a6;
+    margin-left: 248px;
+    width: 630px;
+    height: 85px;
   }
   .pole {
     margin-right: 280px;
     font-size: 25px;
+    height: 90px;
+    width: 630px;
+  
   }
   textarea{
     font-size: 30px;
@@ -483,16 +551,11 @@ body {
 }
 .playlist-panel {
   background-color: #949494;
-  border: 2px solid #ddd; 
   border-radius: 5px; 
   width: 300px;
-  height: 60px; 
+  height: 30px; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-left: 150px;
-
-  
-
-
 }
 
 .playlist-header {
@@ -505,13 +568,11 @@ body {
   color: white; 
   border-top-left-radius: 5px; 
   border-top-right-radius: 5px;
-
-
-  
- 
+  width: 300px;
 }
 
 .playlist-title {
+  justify-content: center;
   margin: 0;
   line-height: 40px; 
   font-family: "Montserrat";
@@ -519,6 +580,7 @@ body {
   font-weight: 500;
   cursor: default;
   user-select: none;
+  text-align: center;
 }
 
 .playlist-songs {
