@@ -345,6 +345,7 @@ img {
 }
 
 @media (max-width: 1460px) {
+
   .hero {
     display: flex;
     align-items: center;
