@@ -2,56 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewpor" content="width=device-width, initial-scale=1.0" />
-    <title>Библиотека</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Библиотека - Muzz</title>
     <link rel="icon" href="./images/iconizer-Page-1.svg" />
     <link rel="stylesheet" href="./fonts/font.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="page">
-    <header class="content content_header-wid_bibl">
-      <div class="header_wid-titleicon_bibl">
+  <body>
+    <header class="header">
+      <div class="header__logo">
         <img
-          class="header_icon_bibl"
+          class="header__icon"
           src="./images/iconizer-Page-1.svg"
-          alt="нарисованная картинка наушников"
+          alt="Логотип Muzz"
         />
-        <span class="header_title_bibl">Muzz</span>
+        <span class="header__title">Muzz</span>
       </div>
-      <nav class="header_wid-nav_bibl">
-        <ul class="header_wid-nav-items_bibl">
-          <li
-            class="header_wid-nav-items-list header_wid-nav-items-list-active_bibl"
-          >
-            <a class="main_butt_bibl" href="index.html" >Главная</a>
+
+      <nav class="header__nav">
+        <ul class="header__nav-items">
+          <li class="header__nav-item">
+            <a href="index.html">Главная</a>
           </li>
-          <li class="header_wid-nav-items-list"><a class="secnd_butt_bibl" href="about_us.html">О нас</a></li>
-          <li  class="header_wid-nav-items-list"><a class="third_butt_bibl" href="bibl.html">Библиотека</a></li>
+          <li class="header__nav-item">
+            <a href="about_us.html">О нас</a>
+          </li>
+          <li class="header__nav-item header__nav-item--active">
+            <a href="bibl.html">Библиотека</a>
+          </li>
         </ul>
       </nav>
     </header>
-
-    <main class="content_bibl">
-      <div class ="playlist-panel ">
+    
+    <main class="main">
+      <div class="playlist-panel">
         <div class="playlist-header" onclick="togglePlaylist()">
-            <h3 class="playlist-title">Название плейлиста</h3>
-            <span class="toggle-arrow">▼</span>
+          <h3 class="playlist-title">Название плейлиста</h3>
+          <span class="toggle-arrow">▼</span>
         </div>
         <div class="playlist-songs hidden">
-            <p>song_1</p>
-            <p>song_2</p>
-            <p>song_3</p>
+          <p>song_1</p>
+          <p>song_2</p>
+          <p>song_3</p>
         </div>
-    </div>
+      </div>
+    </main>
+    <footer>
+      <p class="podval">&copy Muzz 2025</p>
+    </footer>
 
     <script src="script.js"></script>
-      <section class="content_main_glav-section_bibl">
-        <div class="content_main-text_bibl">
-          <div class="center-both">
-          </div>
-        </div> 
-      </section>
-    </main>
   </body>
 </html>
+
