@@ -2,68 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewpor" content="width=device-width, initial-scale=1.0" />
-    <title>О нас</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О нас - Muzz</title>
     <link rel="icon" href="./images/iconizer-Page-1.svg" />
     <link rel="stylesheet" href="./fonts/font.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="page">
-    <header class="content content_header-wid_ab">
-      <div class="header_wid-titleicon_ab">
+  <body>
+    <header class="header">
+      <div class="header__logo">
         <img
-          class="header_icon_ab"
+          class="header__icon"
           src="./images/iconizer-Page-1.svg"
-          alt="нарисованная картинка наушников"
+          alt="Логотип Muzz"
         />
-        <span class="header_title_ab">Muzz</span>
+        <span class="header__title">Muzz</span>
       </div>
 
-      <nav class="header_wid-nav_ab">
-        <ul class="header_wid-nav-items_ab">
-          <li
-            class="header_wid-nav-items-list header_wid-nav-items-list-active_ab"
-          >
-            <a class="main_butt_ab" href="index.html">Главная</a>
+      <nav class="header__nav">
+        <ul class="header__nav-items">
+          <li class="header__nav-item">
+            <a href="index.html">Главная</a>
           </li>
-          <li class="header_wid-nav-items-list">
-            <a class="secnd_butt_ab" href="about_us.html"
-              >О нас</a
-            >
+          <li class="header__nav-item header__nav-item--active">
+            <a href="about_us.html">О нас</a>
           </li>
-          <li class="header_wid-nav-items-list">
-            <a class="third_butt_ab" href="bibl.html"
-              >Библиотека</a
-            >
+          <li class="header__nav-item">
+            <a href="bibl.html">Библиотека</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="content_ab">
-      <section class="content_main_glav-section_ab">
-        <div class="content_main-text_ab">
-          <h1 class="content_main-text-title_ab">Информация о нас.</h1>
-          <p class="text_ab_us">
-            Наш проект появился в 2025 году.
-            Он разработан для того, чтобы
-            вам подобрать плейлисты. Помощник
-            опирается на ваши вкусы и качественно
-            справляется со своей работой.
-            Наша команда оперативно занимается
-            улучшением продукта и исправлением
-            недостатков в нём. Мы очень благодарны,
-             что вы выбрали именно наш сервис!
-          </p2>
-        </div>
-        <div class="content_main-image_ab">
-          <img
-            class="content_main-image_ab-b"
-            src="./images/discah.jpg.jpg"
-            alt="Люди на дискотеке."
-          />
+    
+    <main class="main">
+      
+      <section class="about-us">
+        
+        <div class="about-us__content">
+          <div class="about-us__text">
+            <h1 class="about-us__title">Информация о нас</h1>
+            <p class="ab_ustext">
+              Наш проект появился в 2025 году. Он разработан для того, чтобы
+              вам подобрать плейлисты. Помощник опирается на ваши вкусы и качественно
+              справляется со своей работой. Наша команда оперативно занимается
+              улучшением продукта и исправлением недостатков в нём. Мы очень благодарны,
+              что вы выбрали именно наш сервис!
+            </p>
+          </div>
+          <div class="about-us__image">
+            <img
+              src="./images/discah.jpg.jpg"
+              alt="Люди на дискотеке"
+            />
+          </div>
         </div>
       </section>
     </main>
+    <footer>
+      <p class="podval">&copy Muzz 2025</p>
+    </footer>
   </body>
 </html>
+
