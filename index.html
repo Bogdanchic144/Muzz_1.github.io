@@ -2,69 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewpor" content="width=device-width, initial-scale=1.0" />
-    <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная - Muzz</title>
     <link rel="icon" href="./images/iconizer-Page-1.svg" />
     <link rel="stylesheet" href="./fonts/font.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="page">
-    <header class="content content_header-wid_ab">
-      <div class="header_wid-titleicon_ab">
+    <header class="header">
+      <div class="header__logo">
         <img
-          class="header_icon_ab"
+          class="header__icon"
           src="./images/iconizer-Page-1.svg"
-          alt="нарисованная картинка наушников"
+          alt="Логотип Muzz"
         />
-        <span class="header_title_ab">Muzz</span>
+        <span class="header__title">Muzz</span>
       </div>
 
-      <nav class="header_wid-nav_ab">
-        <ul class="header_wid-nav-items_ab">
-          <li
-            class="header_wid-nav-items-list header_wid-nav-items-list-active_ab"
-          >
-            <a class="main_butt" href="index.html">Главная</a>
+      <nav class="header__nav">
+        <ul class="header__nav-items">
+          <li class="header__nav-item header__nav-item--active">
+            <a href="index.html">Главная</a>
           </li>
-          <li class="header_wid-nav-items-list">
-            <a class="secnd_butt" href="about_us.html"
-              >О нас</a
-            >
+          <li class="header__nav-item">
+            <a href="about_us.html">О нас</a>
           </li>
-          <li class="header_wid-nav-items-list">
-            <a class="third_butt_ab" href="bibl.html"
-              >Библиотека</a
-            >
+          <li class="header__nav-item">
+            <a href="bibl.html">Библиотека</a>
           </li>
         </ul>
       </nav>
     </header>
     
-    <main class="content">
-      <section class="content_main_glav-section">
-        <div class="content_main-text">
-          <h1 class="content_main-text-title">
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
             Нужна музыка для<br />компании?
           </h1>
-          <p class="text_main">
+          <p class="hero__text">
             Открывайте для себя новые плейлисты и слушайте их бесплатно.
-            Наш помощник тщательно подберет песни
-            для вас.
+            Наш помощник тщательно подберет песни для вас.
           </p>
-          <fildset>
-            <input class="pole" type="text" id="playlist-url" placeholder="Введите ссылку на плейлист">
-            <button class="generatebutn" >Добавить плейлист</button>
-          </fildset>
+          <form class="playlist-form">
+            <input class="playlist-form__input" type="text" id="playlist-url" placeholder="Введите ссылку на плейлист">
+            <button class="playlist-form__button" type="submit">Добавить плейлист</button>
+          </form>
         </div>
-        <div class="content_main-image_ab">
+        <div class="hero__image">
           <img
-            class="content_main-image_ab-b"
             src="./images/Фото на главном экране.svg"
             alt="Три человека играют на музыкальных инструментах и поют"
           />
         </div>
       </section>
     </main>
+    <footer>
+      <p class="podval">&copy Muzz 2025</p>
+    </footer>
   </body>
 </html>
+
